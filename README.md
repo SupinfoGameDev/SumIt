@@ -11,5 +11,5 @@ To-Do :
 
 Actual Contributors :
 =====================
-- Justin Soltages (165638)
+- Justin Solatges (165638)
 
