@@ -1,0 +1,45 @@
+<!doctype html>
+<head>
+<title>Sum it! - Mini-Jeux - Zoo Kiddo</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+<meta charset="utf-8">
+<script src="./Libraries/jquery.min.js"></script>
+<script src="./Libraries/underscore-min.js"></script>
+<script type="text/javascript" src="script.v1.5.js"></script>
+<script src="./Libraries/jquery-ui.js"></script>
+
+  <script>
+  $(function() {
+    $( "#informations" ).draggable();
+    });
+  </script>
+</head>
+<body>
+	<header>
+		<h1><span class="red">S</span>um-it ! <span class="red">-</span> v1.<span class="red">5</span></h1>
+	</header>
+
+	<main>
+		<content>
+				<!-- Tableau de Jeu ici -->
+		</content>
+	
+	
+		<aside id="informations">
+			<div id="timers">
+				<div id="timermin" class="stopwatch"></div> :
+				<div id="timersec" class="stopwatch"></div> :
+				<div id="timermsc" class="stopwatch"></div>
+			</div>
+			<p></p>
+				<div id="score-div"><span id="Score">!</span></div>
+		</aside>
+	</main>
+
+	<h1>Somme à atteindre : <span id="Cible" class="red"></span></h1>
+
+	
+	<script src="timer.js"></script>
+</body>
+</html>
+
