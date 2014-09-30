@@ -1,7 +1,9 @@
-/*Palette*/
+/* Palette */
 var palette=Array();
 palette=["#0FADD4", "#F1EB52", "#90C13E", "#FBC319", "#CF65A2", "#80C8CF", "#FBC319","#BAD432", "#F07FA2"];
-paletteSelection=["#2CC2E0", "#FCF05F", "#A7CF4A", "#FDBD1E", "#DC74AE", "#95D6DD", "#FDBD1E","#CEDD40", "#F287B1"];
+paletteSelection=["#EEE", "#EEE", "#EEE", "#EEE", "#EEE", "#EEE", "#EEE", "#EEE", "#EEE"];
+//paletteSelection=["#2CC2E0", "#FCF05F", "#A7CF4A", "#FDBD1E", "#DC74AE", "#95D6DD", "#FDBD1E","#CEDD40", "#F287B1"];
+// ^ palette éclaircie abandonnée pour l'instant, #EEE étant beaucoup plus lisible, en attendant de plus amples travaux.
 
 /* Déclencheurs */
 $(document).ready(function(){
@@ -143,5 +145,5 @@ var altererDonnees = function(){
 
 /* Fonction de victoire */
 var victoire = function(){
-    alert("win");
+    if(!alert('You won!')){window.location.reload();}
 }
